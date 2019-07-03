@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "indunilcheck3/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n\n    \n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function (event, context, callback) {\n    debugger;\n\n\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -35,7 +35,15 @@
             "resourceName": "apigusEast1TestAPIindunilqatstany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "d08d574c-8cf8-45ad-9ae3-24539aa77c3f": {
+            "id": "d08d574c-8cf8-45ad-9ae3-24539aa77c3f",
+            "name": "Unnamed event",
+            "functionId": "48107bf5-8bad-4822-ba6f-c5a08a6cc338",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
       }
     },
     "deletedFiles": [],
@@ -102,7 +110,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562133566675
+    "lastSave": 1562133692497
   },
   "VCS_STATE": {
     "provider": "GitHub",
