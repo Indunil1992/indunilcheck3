@@ -1,0 +1,114 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3d00da3e-59cc-4a14-8f7a-887d13b932cf": {
+        "id": "3d00da3e-59cc-4a14-8f7a-887d13b932cf",
+        "parent": null,
+        "name": "indunilcheck3",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "48107bf5-8bad-4822-ba6f-c5a08a6cc338"
+        ],
+        "isRemovable": false,
+        "filePath": "indunilcheck3"
+      },
+      "48107bf5-8bad-4822-ba6f-c5a08a6cc338": {
+        "id": "48107bf5-8bad-4822-ba6f-c5a08a6cc338",
+        "parent": "3d00da3e-59cc-4a14-8f7a-887d13b932cf",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunilcheck3/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n\n    \n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1TestAPIindunilqatstany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "3d00da3e-59cc-4a14-8f7a-887d13b932cf",
+    "openFiles": [
+      "48107bf5-8bad-4822-ba6f-c5a08a6cc338"
+    ],
+    "currentFileId": "48107bf5-8bad-4822-ba6f-c5a08a6cc338",
+    "resources": {
+      "apigusEast1TestAPIindunilqatstany": {
+        "name": "apigusEast1TestAPIindunilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/hiru/test": "2b8zt0",
+            "/hiru": "3nc52b",
+            "/hiru/sample": "4226gg",
+            "/MyLambda": "98nqbj",
+            "/": "h2lelj6j7k",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/tst",
+          "resourcePath": "/indunil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "tv5t7m",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "indunilcheck3",
+    "projectDescription": "check3",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562130561961
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indunilcheck3",
+      "url": "https://github.com/Indunil1992/indunilcheck3"
+    }
+  }
+}
